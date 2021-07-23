@@ -1,0 +1,17 @@
+#bigtable
+project_id = "thunderstorm-development"
+big_table_instance="big-table-test"
+transcode_table= "test-table"
+
+conn_poolsize = 5000
+
+#array of column family names
+column_family_names=["transcoded_ads_cf","transcoded_status_cf"]
+#column names for each column family
+transcoded_ads_cf=["key","url"]
+transcoded_status_cf=["key","status"]
+
+
+#workflow scheduler
+transcoder_job_topic = "transcode-job-queue"
+transcoder_job_subscription = "worker-group"
