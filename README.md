@@ -1,14 +1,13 @@
 # Bigtable-benchmarking-tool
 
-## Install
+## Build
   `$ go mod vendor`
 
   `$ go mod tidy`
  
-## Build
   `$ go build -o bin/`
   
-## Benchmark
+## Run
   `$ ./benchmark -populate=true -populate_count=1000000 -req_count=3000 -key_range=2000000 -run_for=900`
  
 ## Results 
