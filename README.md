@@ -10,6 +10,9 @@
   
 ## Benchmark
   `$ ./benchmark -populate=true -populate_count=1000000 -req_count=3000 -key_range=2000000 -run_for=900`
+ 
+## Results 
+* [Bigtable-Performance](https://github.com/Siddhartha15/bigtable-benchmarking-tool/blob/main/loadtestOutput/bigtable_Performance.csv)
     
 ## Info
 * __populate__ - populate bigtable if `-populate=true`
