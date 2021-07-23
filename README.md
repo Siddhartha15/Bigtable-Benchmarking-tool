@@ -1,4 +1,4 @@
-# Bigtable-benchmarking
+# Bigtable-benchmarking-tool
 
 ## Install
   `$ go mod vendor`
